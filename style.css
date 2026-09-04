@@ -1,0 +1,174 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+}
+
+/* Page */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 60px;
+    background-color: #f4f6f9;
+    color: #222;
+    line-height: 1.4;
+}
+
+/* Resume background */
+body {
+    background-color: white;
+}
+
+
+/* HEADER */
+center {
+    text-align: center;
+    background-color: #12355b;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 0 0 8px 0;
+    color: white;
+}
+
+center p {
+    margin: 5px;
+    font-size: 14px;
+}
+
+
+/* SECTION HEADINGS */
+h2 {
+    font-size: 18px;
+    color: #12355b;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    padding: 7px 10px;
+
+    background-color: #e8f1fa;
+
+    border-left: 5px solid #1e88e5;
+}
+
+
+/* PARAGRAPHS */
+p {
+    font-size: 14px;
+    margin: 7px 0;
+}
+
+
+/* Hide unnecessary horizontal lines */
+hr {
+    border: none;
+    border-top: 1px solid #dcdcdc;
+    margin: 15px 0;
+}
+
+
+/* TABLES */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+td {
+    padding: 5px 8px;
+    vertical-align: top;
+}
+
+th {
+    padding: 8px;
+}
+
+
+/* SKILLS TABLE */
+table[border="1"] {
+    border: 1px solid #1e88e5;
+}
+
+table[border="1"] th {
+    background-color: #12355b;
+    color: white;
+    border: 1px solid #1e88e5;
+    text-align: center;
+}
+
+table[border="1"] td {
+    border: 1px solid #9bbbd4;
+}
+
+table[border="1"] tr:nth-child(even) {
+    background-color: #f2f8fc;
+}
+
+
+/* BULLET POINTS */
+ul {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+li::marker {
+    color: #1e88e5;
+}
+
+
+/* BOLD TEXT */
+b {
+    color: #12355b;
+}
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 600px) {
+
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    p,
+    li {
+        font-size: 12px;
+    }
+}
+
+
+/* PRINT */
+@media print {
+
+    body {
+        padding: 20px;
+        background-color: white;
+    }
+
+    center {
+        background-color: #12355b !important;
+        color: white !important;
+    }
+
+}
